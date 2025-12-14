@@ -1,0 +1,85 @@
+
+body {
+    background: linear-gradient(#000000, #8cccf9);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+.container {
+    max-width:400px;
+    height: 80vh;
+    margin-top:5vh;
+    padding:20px 40px;
+    border-radius:20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(5, 100, 138, 0.712);
+    line-height:1.5rem;
+    text-align:left;
+    font-family:sans-serif;
+    color: white;
+
+
+}
+
+
+img {
+    max-width: 100px;
+    aspect-ratio: 1;
+    border:1px solid white;
+    border-radius: 50%;
+
+    
+
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    /* align-items: center; */
+
+}
+
+button {
+    width:50%;
+    margin-left: 100px;
+    padding: 10px 5px ;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, rgb(83, 147, 249) 50%,rgb(66, 74, 67) 50%);
+    background-size:1000px 1000px;
+    background-position: right;  
+    transition: all 0.3s ease;
+    border: none;
+
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background: rgba(7, 8, 8, 0.336);
+    color: white;
+}
+
+button:hover {
+    background-position: left;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 4px 6px rgb(0, 0, 0);
+}
+
+button:active {
+    transform: scale(0.6);
+}
